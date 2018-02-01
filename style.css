@@ -1,0 +1,58 @@
+/*Headers
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.), you'll see that the font-size of their headers is quite small.
+Links
+Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover.*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #565656;
+  background-color: #ecd8d8;
+  font-size: 16px;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  font-size: 20px
+}
+
+li {
+  font-size: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover
+{
+  color: gold;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  background: white;
+  max-width: 600px;
+  /*width: 600px;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.center {
+  width: 400px;
+  margin : 0 auto;
+}
